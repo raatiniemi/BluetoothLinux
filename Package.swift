@@ -1,7 +1,7 @@
 // swift-tools-version:5.0
 import PackageDescription
 
-_ = Package(name: "BluetoothLinux",
+let package = Package(name: "BluetoothLinux",
             products: [
                 .library(
                     name: "BluetoothLinux",
