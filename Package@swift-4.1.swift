@@ -1,4 +1,4 @@
-// swift-tools-version:5.0
+// swift-tools-version:4.1
 import PackageDescription
 
 _ = Package(name: "BluetoothLinux",
@@ -17,4 +17,4 @@ _ = Package(name: "BluetoothLinux",
                 .target(name: "CSwiftBluetoothLinuxTest"),
                 .testTarget(name: "BluetoothLinuxTests", dependencies: ["BluetoothLinux", "CSwiftBluetoothLinuxTest"])
             ],
-            swiftLanguageVersions: [.v5])
+            swiftLanguageVersions: [4])
